@@ -3,7 +3,8 @@
 import clsx from 'clsx'
 import { useState } from 'react'
 
-const transitionBezier = `.4,.36,0,1` // use clsx
+// bezier easing function
+const transitionBezier = `.4,.36,0,1`
 
 export function DialogContainer() {
   let [toggle, setToggle] = useState(false)
